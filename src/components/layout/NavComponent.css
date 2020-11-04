@@ -1,0 +1,47 @@
+.nav-ul{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-25%);
+    list-style: none;
+}
+
+.nav-link{
+    margin-bottom: 3.1rem;
+}
+
+.nav-img {
+    width: 4.9rem;
+    height: 4.9rem;
+    margin-left: 25%;
+    fill: #D8DBE2;
+}
+
+.nav-logo{
+    position: absolute;
+    width: 7.9rem;
+    height: 7.9rem;
+    border-radius: 50%;
+    border: .2rem solid #D8DBE2;
+    left: 50%;
+    top: 1.6rem;
+    transform: translate(-50%, -10%)
+}
+
+.nav-logo + h1{
+    display: none;
+}
+
+.nav-img + h1{
+    display: none;
+}
+
+.nav-bar{
+    position: fixed;
+    align-items: center;
+    background: #1B1B1E;
+    width: 10rem;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
