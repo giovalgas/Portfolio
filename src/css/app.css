@@ -1,9 +1,12 @@
-
-.App{
+.content{
     display: flex;
+    flex-direction: column;
 }
-
-.main{
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu-holder{
     flex: 1 0;
     margin-left: 10rem;
     width: 100px;
@@ -54,4 +57,97 @@
 .arrow-down-icon{
     fill:  #1B1B1E;
     width: 2.4rem;
+}
+ 
+.section-content{
+    height: 100vh;
+    margin-left: 10rem;
+    background: #D8DBE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-text{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.about-me-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-heading{
+    font-size: 4.8rem;
+}
+
+.about-me-button{
+    width: 25.6rem;
+    height: 8rem;
+    margin-bottom: 5rem;
+}
+
+.card-about-me{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.about-me-button-holder{
+    display: flex;
+    align-items: space-evenly;
+}
+
+.about-me-button{
+    margin:  0 2rem;
+    border-radius: 5rem;
+    border: 0;
+    background: #1B1B1E;
+    font-size: 2.8rem;
+    color: #D8DBE2;
+}
+
+.service-card-holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-service{
+    margin: 0 2rem; 
+}
+
+.services{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service-text{
+    margin: 1.5rem;
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.services-heading{
+    font-size: 4.8rem;
+}
+
+.contact-me-heading{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.contact-me-heading a {
+    text-decoration: none;
+    color: #FF003D;
+    
+}
+
+.service-text b{
+    font-weight: 400;
 }
