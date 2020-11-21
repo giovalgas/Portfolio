@@ -6,6 +6,7 @@ interface Props{
     width: number;
     height: number;
     id: string
+    bgPhoto?: string;
 }
 
 export const CardComponent: React.FC<Props> = (Props) => {

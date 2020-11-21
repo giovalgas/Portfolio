@@ -2,6 +2,8 @@ import './css/app.css'
 import React from 'react'
 import { NavComponent } from './components/NavComponent';
 import { CardComponent } from './components/CardComponent';
+import { ProjectComponent } from './components/ProjectComponent';
+import Logo from './images/logo.jpg'
 
 export const App: React.FC = () => {
     return (
@@ -37,8 +39,8 @@ export const App: React.FC = () => {
                                 on the internet.
                             </p>
                             <div className="about-me-button-holder">
-                                <button className="about-me-button">View Projects</button>    
-                                <button className="about-me-button">Contact me</button>
+                                <button className="about-me-button btn">View Projects</button>    
+                                <button className="about-me-button btn">Contact me</button>
                             </div>
                         </CardComponent>
                     </div> 
@@ -73,6 +75,30 @@ export const App: React.FC = () => {
                         </CardComponent>
                     </div>
                     <h2 className="contact-me-heading">Interested in any of these?  <a href="#" className="anchor">Contact me!</a></h2>
+                </section>
+                <section className="projects section-content"> 
+                    <div className="projects-holder">
+                        <h1 className="projects-heading">Projects</h1>
+                        <nav className="projects-nav">
+                            <ul className="projects-ul"> 
+                                <li className="projects-li">Everything</li>
+                                <li className="projects-li">Web Development</li>
+                                <li className="projects-li">Minecraft Plugins</li>
+                                <li className="projects-li">Discord Bots</li>
+                                <li className="projects-li">Other</li>
+                            </ul>
+                        </nav>
+                        <div className="projects-card-holder">
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                            <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                        </div>
+                    </div>
                 </section>
             </div>
             <footer className="footer">
