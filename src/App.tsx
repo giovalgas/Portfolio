@@ -3,7 +3,6 @@ import React from 'react'
 import { NavComponent } from './components/NavComponent';
 import { CardComponent } from './components/CardComponent';
 import { ProjectComponent } from './components/ProjectComponent';
-import Logo from './images/logo.jpg'
 
 export const App: React.FC = () => {
     return (
@@ -74,6 +73,7 @@ export const App: React.FC = () => {
                         </p>
                         </CardComponent>
                     </div>
+                    {/* eslint-disable-next-line */}
                     <h2 className="contact-me-heading">Interested in any of these?  <a href="#" className="anchor">Contact me!</a></h2>
                 </section>
                 <section className="projects section-content"> 
@@ -98,6 +98,23 @@ export const App: React.FC = () => {
                             <ProjectComponent name="none" id={1} bgPhoto={null}/>
                             <ProjectComponent name="none" id={1} bgPhoto={null}/>
                         </div>
+                    </div>
+                </section>
+
+                <section className="contact-me section-content">
+                    <div className="contact-holder">
+                        <h2 className="contact-heading">Contact me</h2>
+                        <form action="mailto:giovalgascom@gmail.com" method="post" className="form-contact">
+                            <div>
+                                <input type="text" name="fname" placeholder="Your Name" className="form-input fname"/>
+                                <input type="text" name="femail" placeholder="Email" className="form-input femail"/>
+                            </div>
+                            <input type="text" name="fsubject" placeholder="Subject" className="form-input fsubject"/>
+                            <br/>
+                            <textarea name="fmessage" placeholder="Message" className="form-input fmessage"/>
+                        </form>
+
+                        <button className="submit-button">Submit</button>
                     </div>
                 </section>
             </div>
