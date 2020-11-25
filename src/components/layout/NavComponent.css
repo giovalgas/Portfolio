@@ -10,11 +10,20 @@
     margin-bottom: 3.1rem;
 }
 
+.nav-link:first-child{
+    margin-top: 3.1rem
+}
+
 .nav-img {
     width: 4.9rem;
     height: 4.9rem;
     margin-left: 25%;
     fill: #D8DBE2;
+}
+
+.nav-img:hover {
+    fill: #F3F4F6;
+    cursor: pointer;
 }
 
 .nav-logo{

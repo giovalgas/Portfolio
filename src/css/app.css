@@ -28,11 +28,18 @@
     flex-direction: column;
 }
 
-.socials-logo{
+.socials-logo-anchor{
     margin: .1rem 1.8rem;
+}
+
+.socials-logo{    
     width: 4.9rem;
     height: 4.9rem;
     fill: #1B1B1E;
+}
+
+.socials-logo:hover{
+    fill: black;
 }
 
 .icon-holder{
@@ -57,6 +64,11 @@
 .arrow-down-icon{
     fill:  #1B1B1E;
     width: 2.4rem;
+}
+
+.arrow-down-icon:hover{
+    fill: black;
+    cursor: pointer;
 }
  
 .section-content{
@@ -88,6 +100,12 @@
     width: 25.6rem;
     height: 8rem;
     margin-bottom: 5rem;
+}
+
+.about-me-button:hover{
+    background: black;
+    color: #F3F4F6;
+    cursor: pointer;
 }
 
 .card-about-me{
@@ -137,15 +155,14 @@
     font-size: 4.8rem;
 }
 
-.contact-me-heading{
+.contact-me-footer{
     font-size: 2.4rem;
     font-weight: 300;
 }
 
-.contact-me-heading a {
+.contact-me-footer a {
     text-decoration: none;
     color: #FF003D;
-    
 }
 
 .service-text b{
@@ -166,8 +183,7 @@
     list-style: none;
     display: flex;
     font-size: 1.8rem;
-    margin-bottom: 4rem;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .projects-li{
@@ -178,11 +194,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 108.8rem
+    width: 108.8rem;
+    margin: 4rem 0;
 }
 
 .project{
     margin: .8rem;
+}
+
+.projects-footer{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.projects-footer a {
+    text-decoration: none;
+    color: #FF003D;
 }
 
 .contact-heading{
@@ -196,7 +223,7 @@
 }
 
 .form-input{
-    width: 66.2rem;
+    width: 58.7rem;
     height: 7.6rem;
     font-size: 2.4rem;
     border: solid #1B1B1E .2rem;
@@ -206,11 +233,11 @@
 }
 
 .fsubject{
-    width: 134.4rem
+    width: 119.4rem
 }
 
 .fmessage{
-    width: 134.4rem;
+    width: 119.4rem;
     height: 36.6rem;
     font-size: 2.4rem;
     font-family: roboto; 
