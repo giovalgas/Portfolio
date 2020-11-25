@@ -1,5 +1,5 @@
 import React from 'react';
-import './layout/CardComponent.css';
+import './layout/card.css';
 
 interface Props{
     title?: string;

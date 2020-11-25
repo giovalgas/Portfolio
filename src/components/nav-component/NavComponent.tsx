@@ -1,6 +1,6 @@
 import React from 'react';
-import './layout/NavComponent.css';
-import logo from '../images/logo.jpg';
+import './layout/nav-component.css';
+import logo from '../../images/logo.jpg';
 import { Link } from 'react-scroll' 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import './layout/ProjectComponent.css';
-import questionMark from '../images/question-mark.png';
+import './layout/project-card.css';
+import questionMark from '../../images/question-mark.png';
 
 interface Props{
     name: string
