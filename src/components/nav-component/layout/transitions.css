@@ -1,5 +1,5 @@
 .nav-img + span{
-    opacity: 0%;
+    opacity: 0;
     transition: none .1s ease-out;
     transition-property: opacity, left, transform;
     transition-delay: .1s;
@@ -8,7 +8,7 @@
 }
 
 .nav-link:hover > span {
-    opacity: 100%;
+    opacity: 10;
     left: 10.2rem;
     transform: translateY(-55%)
 }
