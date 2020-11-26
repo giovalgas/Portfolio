@@ -1,0 +1,16 @@
+.nav-img + span{
+    opacity: 0;
+    transition: all .1s ease-out;
+    transition-delay: .1s;
+    position: fixed;
+    left: 2rem;
+}
+
+.nav-link:hover > span {
+    opacity: 100%;
+    left: 10.2rem;
+    transform: translateY(-55%)
+}
+
+
+
