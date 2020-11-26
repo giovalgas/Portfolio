@@ -1,6 +1,7 @@
 .nav-img + span{
-    opacity: 0;
-    transition: all .1s ease-out;
+    opacity: 0%;
+    transition: none .1s ease-out;
+    transition-property: opacity, left, transform;
     transition-delay: .1s;
     position: fixed;
     left: 2rem;
