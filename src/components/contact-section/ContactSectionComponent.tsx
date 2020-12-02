@@ -15,6 +15,8 @@ function sendEmail(e: Event){
     
     let target = e.target as HTMLFormElement;
     target.reset()
+    alert("Form sent!");
+
 }
 
 export const ContactSectionComponent: React.FC = () => {
