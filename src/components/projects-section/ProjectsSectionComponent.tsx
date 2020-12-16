@@ -1,30 +1,30 @@
-import React from 'react'
 import './layout/projects-section.css'
+
+import React from 'react'
 import { ProjectComponent } from '../project-component/ProjectComponent'
+
+import MinesLogo from '../../images/mines-logo.png'
+import WofLogo from '../../images/wof-logo.png'
+import SiteLogo from '../../images/site-logo.png'
+import UtLogo from '../../images/ut-logo.png'
+import ApLogo from '../../images/ap-logo.png'
+import ScLogo from '../../images/sc-logo.png'
+
+
 
 export const ProjectsSectionComponent: React.FC = () => {
     return (
         <section className="projects section-content" id="projects"> 
             <div className="projects-holder">
                 <h1 className="projects-heading">Projects</h1>
-                <nav className="projects-nav">
-                    <ul className="projects-ul"> 
-                        <li className="projects-li">Everything</li>
-                        <li className="projects-li">Web Development</li>
-                        <li className="projects-li">Minecraft Plugins</li>
-                        <li className="projects-li">Discord Bots</li>
-                        <li className="projects-li">Other</li>
-                    </ul>
-                </nav>
+
                 <div className="projects-card-holder">
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
-                    <ProjectComponent name="none" id={1} bgPhoto={null}/>
+                    <ProjectComponent name="Wheel of Fortune" id={1} bgPhoto={WofLogo} link="https://youtu.be/i6jIrP_fZno" bgSize="90%"/>
+                    <ProjectComponent name="Mines Plugin" id={0} bgPhoto={MinesLogo} link="https://github.com/giovalgas/Mines" bgSize="80%"/>
+                    <ProjectComponent name="Ultimate Tools" id={2} bgPhoto={UtLogo} link="https://youtu.be/DD12lEPfDjo" bgSize="75%"/>
+                    <ProjectComponent name="Portfolio" id={5} bgPhoto={SiteLogo} link="https://github.com/giovalgas/Portfolio" bgSize="95%"/>
+                    <ProjectComponent name="Auto Presence" id={3} bgPhoto={ApLogo} link="https://github.com/giovalgas/AutoPresence" bgSize="80%"/>
+                    <ProjectComponent name="Staff Chat" id={4} bgPhoto={ScLogo} link="https://youtu.be/DNZqLixzWb8" bgSize="90%"/>
                 </div>
                 <h2 className="projects-footer">Want to see more projects? <a href="https://github.com/giovalgas" rel="noreferrer" target="_blank">Check out my github</a></h2>
             </div>

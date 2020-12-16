@@ -8,7 +8,27 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
-    margin: .8rem;
-    
 }
 
+.project-holder{
+    margin: 1.6rem 1.6rem;
+    text-decoration: none;
+    color: #1B1B1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    width: 25.6rem;
+    overflow: break-word;
+    word-break: break-all;
+    text-align: center;
+}
+
+.project-name{
+    margin-top: 1rem
+}
+
+.project-description{
+    font-size: 2.6rem;
+    font-weight: 200
+}
