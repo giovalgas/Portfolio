@@ -4,12 +4,14 @@
 }
 
 .section-content{
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
     margin-left: 10rem;
     background: #D8DBE2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5rem 0;
 }
 
 .watermark {

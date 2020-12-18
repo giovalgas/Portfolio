@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1280px){
+
+}
+
+@media only screen and (max-width: 720px){
+    .nav-bar{
+        width: 100vw;
+        height: 7.5rem;
+    }
+    .nav-link{
+        display: none;
+    }
+    .section-content{
+        margin: 0
+    }
+    .nav-logo{
+        display: none;
+    }
+    .hamburger-button{
+        display: block;
+    }
+}
+

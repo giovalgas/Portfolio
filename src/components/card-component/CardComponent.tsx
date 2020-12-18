@@ -3,16 +3,17 @@ import './layout/card.css';
 
 interface Props{
     title?: string;
-    width: number;
-    height: number;
     id: string
     bgPhoto?: string;
 }
 
 export const CardComponent: React.FC<Props> = (Props) => {
+
     return(
-        <div className={"card-" + Props.id + " card"} style={{width: Props.width/10 + "rem", height: Props.height}}>
+        <div className={"card-" + Props.id + " card"}>
+
             {Props.children}
         </div>
     );
+    
 }

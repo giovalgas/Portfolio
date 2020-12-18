@@ -1,5 +1,6 @@
 import './layout/nav-component.css'
 import './layout/transitions.css'
+import './layout/responsive.css'
 import React from 'react'
 import logo from '../../images/logo.jpg'
 import { Link } from 'react-scroll' 
@@ -14,6 +15,13 @@ export const NavComponent: React.FC = () => {
                             <img className="nav-logo" src={logo} alt="logo"/> <h1>GioDev</h1>
                     </span>
                 </div>
+
+                <div className="hamburger-button">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </div>
+                
                 <ul className="nav-ul">
 
                     <Link

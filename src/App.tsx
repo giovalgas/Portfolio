@@ -1,4 +1,6 @@
 import './css/app.css'
+import './css/responsive.css'
+
 import React from 'react'
 import { NavComponent } from './components/nav-component/NavComponent'
 import { MenuSectionComponent } from './components/menu-section/MenuSectionComponent'

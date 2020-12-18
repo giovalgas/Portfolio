@@ -41,10 +41,12 @@
 .fmessage{
     margin: .8rem 1rem 2.1rem 1rem;
     width: 119.4rem;
-    height: 36.6rem;
+    max-height: 40.6rem;
+    min-height: 36.6rem;
     font-size: 2.4rem;
     font-family: roboto; 
     resize: vertical;
+    box-sizing: border-box;
 }
 
 .fbutton-holder{

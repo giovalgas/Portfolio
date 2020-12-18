@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll'
 import './layout/menu-section.css'
+import './layout/responsive.css'
 
 export const MenuSectionComponent: React.FC = () => {
     return (

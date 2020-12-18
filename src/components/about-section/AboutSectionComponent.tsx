@@ -1,14 +1,15 @@
 import React from 'react';
 import { CardComponent } from '../card-component/CardComponent';
-import './layout/about-section.css';
 import { Link } from 'react-scroll';
+import './layout/about-section.css';
+import './layout/responsive.css';
 
 export const AboutSectionComponent: React.FC = () => {
     return (
         <section className="about-me section-content" id="about-me">
             <div className="about-me-holder">
                 <h1 className="about-me-heading">About me</h1>
-                <CardComponent width={768} height={512} id="about-me">
+                <CardComponent id="about-me">
                     <p className="about-me-paragraph">
                         Hello there, <br /> 
                         <br />

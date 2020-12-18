@@ -1,0 +1,17 @@
+@media (max-width: 1920px) {
+    :root {
+      --size-divisor: 1;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    :root {
+      --size-divisor: 1.2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      --size-divisor: 1.4;
+    }
+  }

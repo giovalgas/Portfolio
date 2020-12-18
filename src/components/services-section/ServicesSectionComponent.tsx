@@ -8,7 +8,7 @@ export const ServicesSectionComponent: React.FC = () => {
         <section className="services section-content" id="services"> 
             <h1 className="services-heading">Services</h1>
             <div className="service-card-holder">
-                <CardComponent id="service" width={256} height={576}>
+                <CardComponent id="service">
                     <p className="service-text">
                         <b>Minecraft Plugin Development</b>
                         <br/> 
@@ -16,7 +16,7 @@ export const ServicesSectionComponent: React.FC = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui sed lacus porta ornare in quis urna. Vestibulum luctus, ipsum at cursus scelerisque, neque orci aliquet nisl, a dictum elit dui non dictumst.
                     </p>
                 </CardComponent>
-                <CardComponent id="service" width={256} height={576}>
+                <CardComponent id="service">
                     <p className="service-text">
                         <b>Web <br />Development</b>
                         <br/>
@@ -24,7 +24,7 @@ export const ServicesSectionComponent: React.FC = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui sed lacus porta ornare in quis urna. Vestibulum luctus, ipsum at cursus scelerisque, neque orci aliquet nisl, a dictum elit dui non dictumst.
                     </p> 
                 </CardComponent>
-                <CardComponent id="service" width={256} height={576}>
+                <CardComponent id="service">
                     <p className="service-text">
                         <b>Discord Bot Development</b>
                         <br/> 

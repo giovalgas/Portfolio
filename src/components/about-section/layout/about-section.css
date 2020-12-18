@@ -5,7 +5,7 @@
 }
 
 .about-me-heading{
-    font-size: 4.8rem;
+    font-size: calc(4.8rem / var(--size-divisor));
 }
 
 .card-about-me{
@@ -14,12 +14,15 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2rem;
+    flex-shrink: 1;
+    width: calc(76.8rem / var(--size-divisor));
+    height: calc(51.2rem / var(--size-divisor));
 }
 
 .about-me-paragraph{
-    font-size: 3rem;
+    font-size: calc(3rem / var(--size-divisor));
     font-weight: 300;
-    margin-left: 2rem;
+    margin-left: calc(2rem / var(--size-divisor));
 }
 
 .about-me-button-holder{
@@ -28,14 +31,14 @@
 }
 
 .about-me-button{
-    width: 25.6rem;
-    height: 8rem;
-    margin-bottom: 5rem;
-    margin:  0 2rem;
+    width: calc(25.6rem / var(--size-divisor));
+    height: calc(8rem / var(--size-divisor));
+    margin-bottom: calc(5rem / var(--size-divisor));
+    margin:  0 calc(2rem / var(--size-divisor));
     border-radius: 5rem;
     border: 0;
     background: #1B1B1E;
-    font-size: 2.8rem;
+    font-size: calc(2.8rem / var(--size-divisor));
     color: #D8DBE2;
 }
 
